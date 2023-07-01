@@ -125,13 +125,6 @@ let songs = [
     cover: "https://iili.io/Hi7HInI.jpg",
     duration: "03:04"
   },
-  {
-    title: "Happiness",
-    audio: "./assets/music/Happiness.mp3",
-    singer: "Rex Orange County",
-    cover: "https://iili.io/Hi7HxZN.jpg",
-    duration: "04:39"
-  },
 ];
 
 export default songs;
