@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      src="https://kit.fontawesome.com/328128838d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Music Player</title>
+
+    <link rel="stylesheet" href="./src/main.css" />
+  </head>
+  <body class="font-poppins bg-primary flex items-center justify-center">
+    <div
+      class="container bg-primary w-full max-w-xl items-center justify-center"
+    >
+      <div class="home">
+         <nav
+          class="w-full max-w-xl bg-primary fixed flex justify-between space-x-2 items-center px-4 py-4"
+        >
+          <input
+            type="text"
+            class="w-4/5 rounded-lg pl-2 h-10 bg-secondairy hover:border-white placeholder:text-text placeholder:font-thin placeholder:text-sm"
+            placeholder="what do you want to listen to? "
+          />
+          <button
+            class="rounded-lg items-end bg-secondairy text-text w-1/6 h-10"
+          >
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </nav>
+        <div class="w-full h-20"></div>
+        <div class="main px-2 mb-12">
+          <h3 class="text-white text-lg px-2">Song List</h3>
+          <ul class="songs pt-3">
+            <!-- <li class="pt-2">
+            <a href="./player.html">
+              <div
+                class="h-14 text-text flex items-center space-x-4 rounded-lg px-3 hover:bg-secondairy"
+              >
+                <p class="number items-center w-3 text-right">1</p>
+                <img src="./assets/image/AM.jpg" class="w-12" alt="" />
+                <div class="data">
+                  <h3 class="text-white">I wanna be yours</h3>
+                  <p>Arctic Monkey</p>
+                </div>
+                <div class="grow"></div>
+                <p>3:34</p>
+              </div>
+            </a>
+          </li> -->
+          </ul>
+        </div>
+      </div>
+      <div class="player hidden">
+        <audio
+          src="./assets/music/LOVE. FEAT. ZACARI..mp3"
+          type="audio/Mp3"
+          id="audio"
+        ></audio>
+        <nav
+          class="text-text flex flex-row justify-between items-center px-6 py-4"
+        >
+          <a href="./home.html"><i class="fa-solid fa-arrow-left"></i></a>
+          <p>Now Playing</p>
+          <a href="#"><i class="fa-solid fa-bars"></i></a>
+        </nav>
+        <div
+          class="main text-white flex flex-col justify-center items-center px-6"
+        >
+          <div class="rounded-2xl w-full">
+            <img
+              src="./assets/image/Sunflower.jpg"
+              id="cover"
+              class="rounded-2xl w-full"
+            />
+          </div>
+
+          <div class="status glass rounded-xl my-10 py-3 px-2 w-full">
+            <div class="data flex flex-row items-center justify-between">
+              <div class="artist">
+                <h3 class="text-base text-one-line" id="title">Sunflower</h3>
+                <p class="text-xs whitespace-nowrap" id="singer">
+                  Rex Orange County
+                </p>
+              </div>
+            </div>
+
+            <div class="seek w-full pt-5">
+              <input
+                class="w-full relative block rounded-3xl h-2"
+                type="range"
+                step="2"
+                value="0"
+                min="0"
+                max="100"
+                id="seekBar"
+              />
+              <div class="time flex justify-between text-xs pt-1 font-thin">
+                <p class="current-time">00:00</p>
+                <p class="duration">00:00</p>
+              </div>
+            </div>
+
+            <div
+              class="controls flex items-center justify-between px-2 pt-5 text-3xl"
+            >
+              <i class="fa-solid fa-shuffle cursor-pointer"></i>
+              <div class="flex space-x-5 items-center">
+                <i
+                  class="fa-solid fa-backward-step cursor-pointer hover:text-tertiaty"
+                ></i>
+                <i
+                  class="fa-solid fa-pause cursor-pointer hidden hover:text-tertiaty"
+                ></i>
+                <i
+                  class="fa-solid fa-circle-play cursor-pointer hover:text-tertiaty"
+                ></i>
+                <i
+                  class="fa-solid fa-forward-step cursor-pointer hover:text-tertiaty"
+                ></i>
+              </div>
+              <i class="fa-solid fa-repeat cursor-pointer"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="./src/home.js"></script>
+  </body>
+</html>

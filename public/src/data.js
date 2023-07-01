@@ -1,0 +1,138 @@
+let songs = [
+  {
+    title: "Sunflower",
+    audio: "./assets/music/Sunflower.mp3",
+    singer: "Rex Orange County",
+    cover: "./assets/image/Sunflower.JPG",
+    duration: "04:12"
+  },
+  {
+    title: "AMAZING",
+    audio: "./assets/music/AMAZING.mp3",
+    singer: "Rex Orange County",
+    cover: "./assets/image/Who-Cares.JPG",
+    duration: "03:29"
+  },
+  {
+    title: "LOVE. FEAT. ZACARI",
+    audio: "./assets/music/LOVE. FEAT. ZACARI..mp3",
+    singer: "Kendrick Lamar, Zacari",
+    cover: "./assets/image/DAMN.JPG",
+    duration: "03:33"
+  },
+  {
+    title: "Sleep Well",
+    audio: "./assets/music/Sleep Well.mp3",
+    singer: "D4VD",
+    cover: "./assets/image/Petals-To-Thorns.JPG",
+    duration: "02:59"
+  },
+  {
+    title: "Always",
+    audio: "./assets/music/Always.mp3",
+    singer: "Daniel Caesar",
+    cover: "./assets/image/NEVER-ENOUGH.JPG",
+    duration: "03:45"
+  },
+  {
+    title: "Die For You",
+    audio: "./assets/music/Die For You.mp3",
+    singer: "The Weeknd",
+    cover: "./assets/image/Starboy.JPG",
+    duration: "03:45"
+  },
+  {
+    title: "It Gets Better",
+    audio: "./assets/music/It Gets Better.mp3",
+    singer: "Rex Orange County",
+    cover: "./assets/image/Pony.JPG",
+    duration: "03:45"
+  },
+  {
+    title: "Night Changes",
+    audio: "./assets/music/Night Change.mp3",
+    singer: "One Direction",
+    cover: "./assets/image/Four.JPG",
+    duration: "03:45"
+  },
+  {
+    title: "About You",
+    audio: "./assets/music/About You.mp3",
+    singer: "The 1975",
+    cover: "./assets/image/Being-Funny-In-A-Foreign-Language.JPG",
+    duration: "03:45"
+  },
+  {
+    title: "Fix You",
+    audio: "./assets/music/Fix You.mp3",
+    singer: "Coldplay",
+    cover: "./assets/image/X&Y.JPG",
+    duration: "03:45"
+  },
+  {
+    title: "I love You 3000",
+    audio: "./assets/music/I love You 3000.mp3",
+    singer: "Stephanie Poetrie",
+    cover: "./assets/image/I-Love-You-3000.JPG",
+    duration: "03:45"
+  },
+  {
+    title: "THE SHADE",
+    audio: "./assets/music/THE SHADE.mp3",
+    singer: "Rex Orange County",
+    cover: "./assets/image/Who-Cares.JPG",
+    duration: "03:45"
+  },
+  {
+    title: "Rewrite The Stars",
+    audio: "./assets/music/Rewrite The Stars.mp3",
+    singer: "James Arthur, Anne-Marie",
+    cover: "./assets/image/Rewrite-The-Stars.JPG",
+    duration: "03:45"
+  },
+  {
+    title: "If",
+    audio: "./assets/music/If.mp3",
+    singer: "Bread",
+    cover: "./assets/image/Manna.JPG",
+    duration: "02:35"
+  },
+  {
+    title: "Yellow",
+    audio: "./assets/music/Yellow.mp3",
+    singer: "Coldplay",
+    cover: "./assets/image/Parachutes.JPG",
+    duration: "04:47"
+  },
+  {
+    title: "An Art Gallery Could Never Be As Unique As You",
+    audio: "./assets/music/An Art Gallery Could Never Be As Unique As You.mp3",
+    singer: "mrld",
+    cover: "./assets/image/An-Art-Gallery-Could-Never-Be-As-Unique-As-You.JPG",
+    duration: "02:49"
+  },
+  {
+    title: "Never Enough",
+    audio: "./assets/music/Never Enough.mp3",
+    singer: "Rex Orange County",
+    cover: "./assets/image/Apricot-Princess.JPG",
+    duration: "04:58"
+  },
+  {
+    title: "I Wanna Be Yours",
+    audio: "./assets/music/I Wanna Be Yours.mp3",
+    singer: "Arctic Monkeys",
+    cover: "./assets/image/AM.JPG",
+    duration: "03:04"
+  },
+  {
+    title: "Happiness",
+    audio: "./assets/music/Happiness.mp3",
+    singer: "Rex Orange County",
+    cover: "./assets/image/Apricot-Princess.JPG",
+    duration: "04:39"
+  },
+];
+
+export default songs;
+
